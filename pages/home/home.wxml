@@ -1,0 +1,79 @@
+<!--pages/home/home.wxml-->
+<view class="back">
+  <view class='top'> </view>
+  <view class="biaodan">
+    <text>请假</text>
+  </view>
+
+  <button class="button_ask">
+    <view class='top'> </view>
+    <view class="l-to-r">
+      <view class="mid">
+        <image class="addimage"  src="../../image/add.jpg"></image>
+        <text>申请请假</text>
+      </view>
+      <mp-icon icon="arrow" color="gray" size="{{16}}"></mp-icon>
+    </view>
+    <view class='bottom'> </view>
+  </button>
+
+  <view class="Column_school" bindtap='turnto_out'>
+    <view>
+      <view class='top'> </view>
+      <label>
+        <text class='label_left_1'>已出校\n</text>
+        <view class='label_left_2'>
+        <text >今日 · 于 {{time}} 出校</text>
+        </view >
+      </label>
+      <view class='bottom'> </view>
+    </view>
+    <view>
+      <view class='top'> </view>
+      <button class="button_leave" bindtap='turnto_out'>
+      <view class='button_right1'>
+      <text >返校</text>
+      </view>
+      </button>
+      <view class='bottom'> </view>
+    </view>
+  </view>
+
+  <view class="Column">
+  <view class='top'> </view>
+  <view class='top'> </view>
+    <view class="last_view">
+    <view>
+    <text>如果您的请假在5月14日审核通过，但没有显示假条，请尝试重新发起申请</text>
+    </view>
+    <view class='bottom'> </view>
+    <view >
+    <text class="text_down_23">如对请假流程有相关疑问，请查看</text>
+    <text class="text_down_2_1"> 离校请假FAQ</text>
+    <text class="text_down_23">，大多数问题均可得到答案</text>
+    </view>
+    <view class='bottom'> </view>
+    <view>
+    <text class="text_down_23">本页仅展示今日请假数据，如需查看所有请假记录请前往</text>
+    <text class="text_down_2_1"> 「我提交的审批」 。</text>
+    </view>
+    </view>
+    <view class='bottom'> </view>
+    <view class='bottom'> </view>
+  </view>
+  <view class='top'> </view>
+  <view class='top'> </view>
+  <view class='top'> </view>
+  <view class='top'> </view>
+  <view class='top'> </view>
+  <view class='top'> </view>
+  <view class='top'> </view>
+  <view class='top'> </view>
+  <view class='top'> </view>
+  <view class='top'> </view>
+  <view class='top'> </view>
+  <view class='top'> </view>
+
+
+
+</view>

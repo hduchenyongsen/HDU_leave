@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/inform/inform",
+    "pages/out/out",
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/codes/codes"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "杭电助手",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

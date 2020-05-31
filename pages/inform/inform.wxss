@@ -1,0 +1,22 @@
+/* pages/inform/inform.wxss */
+
+
+.text_reporrt_title{
+    display:flex;
+    color: rgba(231, 10, 10, 0.959);
+    font-weight:bold;
+}
+
+.text_report{
+    display:flex;
+    margin-left: 50rpx;
+    margin-bottom: 50rpx;
+    font-weight:lighter;
+    font-size:13px;
+}
+
+.usermotto {
+  border: 1px solid rgb(13, 14, 13);
+  padding: 10px 20px;
+  border-radius: 5px;
+}

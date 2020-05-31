@@ -1,0 +1,16 @@
+<!--pages/inform/inform.wxml-->
+<text class='text_reporrt_title' bindtap='turnto_codes'>公告：</text>
+<text class='text_report'>此小程序纯属娱乐，这是体验版，未打算上线，大家分享给其他人需要申请体验权限，申请时可以备注一下姓名，因为体验名额有限，无法全部通过，望大家见谅，源码已经上传，点击上方“公告”位置获取。</text>
+<view>姓名：
+<input class="usermotto" placeholder='请输入姓名，默认刘学胜' bindinput='change_name'></input>
+</view>
+<view>学号：
+<input class="usermotto" placeholder='请输入学号，默认172060110' bindinput='change_schoolnumber'></input>
+</view>
+<view>辅导员：
+<input class="usermotto" placeholder='默认宋昱锋' bindinput='change_counselor'></input>
+</view>
+<view>请假原因，请认真填写：
+<input class="usermotto" placeholder='请输入请假原因' bindinput='change_leave'></input>
+</view>
+<button bindtap='turnto_home'>确定</button>

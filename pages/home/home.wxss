@@ -1,0 +1,185 @@
+/* pages/home/home.wxss */
+@import '../../weui-miniprogram/icon/icon.wxss';
+
+.mid {
+  display:flex;
+  align-items: center;
+  justify-content: center;  
+}
+  .back {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://img-blog.csdnimg.cn/20200519233958973.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI2NjU4NTE3,size_16,color_FFFFFF,t_70)
+  }
+
+  addimage{
+    background-image: url(https://img-blog.csdnimg.cn/20200515203316294.jpg)
+  }
+
+  .arrow_back{
+    display:flex;
+    color: rgba(255, 255, 255, 0.959);
+    font-size: 45rpx;
+    margin-left: 30rpx;
+    margin-bottom: 120rpx;
+    margin-top: 15rpx
+  }
+  
+  .biaodan{
+    display:flex;
+    color: rgba(255, 255, 255, 0.959);
+    font-size: 55rpx;
+    margin-left: 70rpx;
+    margin-top: 200rpx;
+    margin-bottom: 50rpx;
+    margin-right: 30rpx;
+  }
+
+  .button_ask {
+    margin-left: 15rpx;
+    margin-bottom: 15rpx;
+    margin-right: 15rpx;
+    background-image: url(https://img-blog.csdnimg.cn/20200513145239228.jpg)
+  }
+
+  .button_school {
+    margin-left: 15rpx;
+    margin-bottom: 15rpx;
+    margin-right: 15rpx;
+    background-image: url(https://img-blog.csdnimg.cn/20200513145239228.jpg)
+  }
+
+  .addimage {
+  justify-content: left;
+  align-items: center;
+  margin-left: 30rpx;
+  margin-top: 5rpx;
+  margin-right: 40rpx;  
+  width:50rpx;
+  height:50rpx;
+}
+
+  .Column_school{
+    margin-left: 15rpx;
+    margin-bottom: 15rpx;
+    margin-right: 15rpx;
+    background-image: url(https://img-blog.csdnimg.cn/20200513145239228.jpg);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+
+  .label_left_1
+  {
+    display: block;
+    font-size: 45rpx;
+    font-family: 等线;
+    font-weight: bold;
+    margin-left: 50rpx;
+    line-height: 50rpx;
+  }
+  .label_left_2
+  {
+    display: block;
+    color: gray;
+    margin-left: 50rpx;
+    font-size: 30rpx;
+    line-height: 50rpx;
+  }
+
+  .button_leave{
+    background-color: rgba(33, 146, 214, 0.959);
+    width: 150rpx;
+    height: 100rpx;
+    margin-right: 35rpx;
+  }
+
+  .button_right1{
+    vertical-align: middle;
+    line-height: 30rpx;
+    margin-top: 35rpx;
+    color: white;
+    font-weight: 520;
+    font-size: 38rpx;
+  }
+
+  .button_right2{
+    display: block;
+    color: white;
+    font-size: 38rpx;
+  }
+
+
+
+  .Column{
+    margin-left: 15rpx;
+    margin-bottom: 15rpx;
+    margin-right: 15rpx;
+    background-image: url(https://img-blog.csdnimg.cn/20200513145239228.jpg)
+  }
+
+  .last_view{
+    display: block;
+    margin-left: 50rpx;
+    margin-right: 50rpx;
+    font-size: 30rpx;
+    font-family: 等线;
+    font-weight: bold;
+    line-height: 50rpx;
+  }
+
+  .text_down_23{
+    font-weight:lighter;
+  }
+
+  .text_down_2_1{
+    color:rgba(34, 162, 201, 0.842);
+  }
+
+  .text_shangbao {
+    display:flex;
+    margin-left: 50rpx;
+    margin-top: 50rpx;
+  }
+
+.time {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20rpx;
+}
+
+.bottom {
+    display:flex;
+    margin-left: 50rpx;
+    margin-top: 25rpx;
+  }
+
+  .top {
+    display:flex;
+    margin-left: 50rpx;
+    margin-bottom: 25rpx;
+  }
+
+  .l-to-r {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+  .text_left {
+    margin-left: 50rpx;
+    vertical-align: middle;
+  }
+
+  .text_right {
+    font-weight:lighter;
+    color: rgba(86, 92, 95, 0.788);
+    margin-right: 50rpx;
+    vertical-align: middle;
+  }
+
+.main text {
+  text-align: center;
+}

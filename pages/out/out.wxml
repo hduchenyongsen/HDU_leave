@@ -1,0 +1,175 @@
+<!--pages/out/out.wxml-->
+<view class="back">
+  <view class='top'> </view>
+  <view class="arrow_back">
+    <text>arrow_back</text>
+  </view>
+  <view class="biaodan">
+    <text>表单</text>
+  </view>
+
+  <!--每一个白色背景栏-->
+  <view class="Column">
+    <view class='top'> </view>
+    <view class="text_leave">
+      <text>学生离校请假</text>
+    </view>
+    <view class="text_shangbao">
+      <text>已通过</text>
+    </view>
+    <view class='bottom'> </view>
+    <view class='bottom'> </view>
+  </view>
+
+
+  <view class="Column">
+    <view class='top'> </view>
+    <view class="mid">
+      <image class="QR-code" src="../../image/QR-code.jpg"></image>
+    </view>
+    <view>
+      <text class="time">{{time}}</text>
+    </view>
+    <view class='bottom'> </view>
+    <view class='bottom'> </view>
+  </view>
+
+  <view class="Column">
+    <view class='top'> </view>
+    <view class="l-to-r">
+      <text class="text_left">姓名</text>
+      <text class="text_right">{{name}}</text>
+    </view>
+    <view class='bottom'> </view>
+  </view>
+
+  <view class="Column">
+    <view class='top'> </view>
+    <view class="l-to-r">
+      <text class="text_left">学号</text>
+      <text class="text_right">{{schoolnumber}}</text>
+    </view>
+    <view class='bottom'> </view>
+  </view>
+
+
+  <view class="Column">
+    <view class='top'> </view>
+    <view class="l-to-r">
+      <text class="text_left">学院</text>
+      <text class="text_right">自动化学院（人工智能学院)</text>
+    </view>
+    <view class='bottom'> </view>
+  </view>
+
+
+  <view class="Column">
+    <view class='top'> </view>
+    <view class="l-to-r">
+      <text class="text_left">班级</text>
+      <text class="text_right"> </text>
+    </view>
+    <view class='bottom'> </view>
+  </view>
+
+  <view class="Column">
+    <view class='top'> </view>
+    <view class="l-to-r">
+      <text class="text_left">辅导员</text>
+      <text class="text_right">{{counselor}}</text>
+    </view>
+    <view class='bottom'> </view>
+  </view>
+
+  <view class="Column">
+    <view class='top'> </view>
+    <text class="text_mid">请假内容</text>
+    <view class='bottom'> </view>
+  </view>
+
+  <view class="Column">
+    <view class='top'> </view>
+    <label>
+      <text class="label_text1">请假类型（必填）</text>
+      <view class="label_text3">
+        <text class="label_text3_left">2小时以内</text>
+        <text class="label_text3_right">▼</text>
+      </view>
+    </label>
+    <view class='bottom'> </view>
+  </view>
+
+  <view class="Column">
+    <view class='top'> </view>
+    <label>
+      <text class="label_text1">请假开始日期（必填）</text>
+      <text class='label_text2'>离开学校的日期</text>
+      <view class="label_text3">
+        <text class="label_text3_left">{{date}}</text>
+        <text class="label_text3_right">▼</text>
+      </view>
+    </label>
+    <view class='bottom'> </view>
+  </view>
+
+  <view class="Column">
+    <view class='top'> </view>
+    <label>
+      <text class="label_text1">请假结束日期（必填）</text>
+      <text class='label_text2'>返回学校的日期</text>
+      <view class="label_text3">
+        <text class="label_text3_left">{{date}}</text>
+        <text class="label_text3_right">▼</text>
+      </view>
+    </label>
+    <view class='bottom'> </view>
+  </view>
+
+  <view class="Column">
+    <view class='top'> </view>
+    <label>
+      <text class="label_text1">请假原因（必填）</text>
+      <text class='label_text2'>请说明请假的原因，如果有具体的离校时间，也可以附上</text>
+      <view class="label_text3_1">
+      <view class="label_text3_left">
+      <text>{{reason_leave}}</text>
+      </view>
+      </view>
+    </label>
+    <view class='bottom'> </view>
+  </view>
+
+  <view class="Column">
+    <view class='top'> </view>
+    <label>
+      <text class="label_text1">请假期间是否离开浙江（必填）</text>
+      <view class="label_text3">
+        <text class="label_text3_left">否</text>
+        <text class="label_text3_right">▼</text>
+      </view>
+    </label>
+    <view class='bottom'> </view>
+  </view>
+
+  <view class="Column">
+    <view class='top'> </view>
+    <label>
+      <text class="label_text1">签名（必填）</text>
+      <text class='label_text2'>本人郑重承诺：我承诺上述内容真实有效，离校期间注意自身安全，如有身体不适及时向学校报告</text>
+      <image class='sign' src="{{url_sign}}"></image>
+      <text class='label_text2'>点击「确认」上传签名后再提交表单。</text>
+    </label>
+    <view class='bottom'> </view>
+  </view>
+
+  <view class="Column">
+    <view class='top'> </view>
+    <view class="l-to-r">
+      <text class="text_left">1审意见</text>
+      <text class="text_right">无意见或备注</text>
+    </view>
+    <view class='bottom'> </view>
+  </view>
+
+
+</view>
